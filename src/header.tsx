@@ -15,7 +15,7 @@ export function Header() {
 
   return (
     <header className='px-4 py-5'>
-      <div className='mx-auto max-w-[1360px] flex justify-between md:justify-start md:gap-14'>
+      <div className='mx-auto max-w-[1360px] flex justify-between items-center md:justify-start md:gap-14'>
         <a href='#'>
           <SnapLogo />
         </a>
@@ -26,7 +26,7 @@ export function Header() {
           <MenuButton handleExpanded={handleExpanded} />
         )}
         <NavigationMobile isExpanded={isExpanded} />
-        <div className='hidden flex-1 md:flex justify-between'>
+        <div className='hidden flex-1 md:flex justify-between items-center'>
           <nav>
             <NavigationDesktop />
           </nav>
@@ -253,6 +253,7 @@ function DropdownMobile({ label }: { label: DropdownLabel }) {
 
 function DropdownDesktop({ label }: { label: DropdownLabel }) {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
+
   function handleClick() {
     setIsExpanded(!isExpanded);
   }
