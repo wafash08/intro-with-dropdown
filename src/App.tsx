@@ -1,11 +1,9 @@
-function App() {
+import { Header } from "./header";
+
+export function App() {
   return (
     <>
-      <div>
-        <h1 className='text-red-600'>Hello world!</h1>
-      </div>
+      <Header />
     </>
   );
 }
-
-export default App;
