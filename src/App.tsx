@@ -19,8 +19,8 @@ export function App() {
                 <img
                   src='/image-hero-desktop.webp'
                   alt='Make remote work'
-                  width={750}
-                  height={564}
+                  width={960}
+                  height={1280}
                   className='hidden lg:block'
                 />
               </figure>
@@ -37,7 +37,7 @@ export function App() {
 
                   <button
                     type='button'
-                    className='text-almost-white bg-almost-black rounded-xl py-3 px-6'
+                    className='text-almost-white bg-almost-black rounded-xl py-[10px] px-6 transition-colors border-2 border-transparent hover:text-almost-black hover:border-almost-black hover:bg-almost-white'
                   >
                     Learn more
                   </button>
@@ -46,25 +46,45 @@ export function App() {
                   <li>
                     <a href='#'>
                       <span className='sr-only'>databiz</span>
-                      <img src='/client-databiz.svg' alt='databiz' />
+                      <img
+                        src='/client-databiz.svg'
+                        alt='databiz client of work'
+                        width={114}
+                        height={20}
+                      />
                     </a>
                   </li>
                   <li>
                     <a href='#'>
                       <span className='sr-only'>audiophile</span>
-                      <img src='/client-audiophile.svg' alt='audiophile' />
+                      <img
+                        src='/client-audiophile.svg'
+                        alt='audiophile client of work'
+                        width={73}
+                        height={36}
+                      />
                     </a>
                   </li>
                   <li>
                     <a href='#'>
                       <span className='sr-only'>meet</span>
-                      <img src='/client-meet.svg' alt='meet' />
+                      <img
+                        src='/client-meet.svg'
+                        alt='meet client of work'
+                        width={90}
+                        height={20}
+                      />
                     </a>
                   </li>
                   <li>
                     <a href='#'>
                       <span className='sr-only'>maker</span>
-                      <img src='/client-maker.svg' alt='maker' />
+                      <img
+                        src='/client-maker.svg'
+                        alt='maker client of work'
+                        width={83}
+                        height={24}
+                      />
                     </a>
                   </li>
                 </ul>

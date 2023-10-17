@@ -17,6 +17,7 @@ export function Header() {
     <header className='px-4 py-5'>
       <div className='mx-auto max-w-[1360px] flex justify-between items-center md:justify-start md:gap-14'>
         <a href='#'>
+          <span className='sr-only'>Snap logo</span>
           <SnapLogo />
         </a>
         {/* // todo: try changing the button smoothly */}
